@@ -1,0 +1,229 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --pepel-text: rgba(117, 117, 117, 1);
+  --background-section-one: rgba(47, 48, 58, 1);
+  --background-section-four: rgba(245, 244, 250, 1);
+  --footer-adress: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--black-text);
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  color: var(--blue-text);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  font-family: Raleway, sans-serif;
+  color: var(--black-text);
+  letter-spacing: 0.03em;
+}
+
+.social-links .link {
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: var(--blue-text);
+  background: var(--white-text);
+  text-decoration: underline;
+}
+
+.social-links .current {
+  color: var(--blue-text);
+}
+
+.links {
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--blue-text);
+}
+
+.contacts-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--pepel-text);
+  cursor: pointer;
+}
+
+.contacts-mail:hover,
+.contacts-mail:focus {
+  color: var(--blue-text);
+  text-decoration: underline;
+}
+
+.contacts-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--pepel-text);
+}
+
+/* main */
+.hero {
+  background: var(--background-section-one);
+}
+
+.name {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--white-text);
+}
+
+.current {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--white-text);
+  background: var(--blue-text);
+}
+
+.feature {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-text);
+}
+
+.feature-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--pepel-text);
+}
+
+.main {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.team,
+.team-card {
+  background: var(--white-text);
+}
+
+.team {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.team-card {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--pepel-text);
+}
+
+/* address */
+.span {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+
+.info {
+  background: var(--background-section-one);
+  color: var(--footer-adress);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+
+/* portfolio */
+.none {
+  display: none;
+}
+
+.section-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  background: var(--background-section-four);
+  color: var(--black-text);
+}
+
+.section-button .section-btn:hover {
+  color: var(--white-text);
+  background: var(--blue-text);
+  cursor: pointer;
+}
+
+.section-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.portfolio {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--black-text);
+  background: var(--background-section-four);
+}
+
+.portfolio-finger {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--pepel-text);
+  background: var(--background-section-four);
+}
