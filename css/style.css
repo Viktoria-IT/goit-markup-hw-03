@@ -13,6 +13,63 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* header */
+/* исправить почту и телефон */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.conteiner {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-links {
+  display: flex;
+  margin-right: 50px;
+}
+
+.social-links > .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.social-links-info {
+  display: flex;
+  margin-left: 50px;
+  justify-content: center;
+}
+
+.social-links-info .item {
+  display: flex;
+  padding: 10px;
+}
+
+.social-links-info > .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .logo {
   color: var(--blue-text);
   font-family: Raleway, sans-serif;
@@ -20,6 +77,10 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+
+  margin-right: 93px;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 
 .text {
@@ -79,9 +140,18 @@ body {
   color: var(--pepel-text);
 }
 
-/* main */
+/* hero */
+/* в херо кнопку отцентрировать */
+
 .hero {
   background: var(--background-section-one);
+  height: 600px;
+  /* width: 1200; */
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  /* margin-left: 0;
+  margin-right: auto; */
+  text-align: center;
 }
 
 .name {
@@ -89,6 +159,13 @@ body {
   font-weight: 900;
   font-size: 44px;
   color: var(--white-text);
+
+  height: 120px;
+  width: 696px;
+  margin-left: 237px;
+  margin-right: 237px;
+  padding-top: 130px;
+  padding-bottom: 207px;
 }
 
 .current {
@@ -97,6 +174,17 @@ body {
   font-size: 16px;
   color: var(--white-text);
   background: var(--blue-text);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-radius: 4px;
 }
 
 .feature {
@@ -109,6 +197,41 @@ body {
   color: var(--black-text);
 }
 
+.conteiner-feature {
+  max-width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.item p {
+  margin: 0;
+  width: 270px;
+}
+
 .feature-info {
   font-style: normal;
   font-weight: normal;
@@ -118,6 +241,8 @@ body {
   color: var(--pepel-text);
 }
 
+/* main */
+
 .main {
   font-style: normal;
   font-weight: bold;
@@ -125,7 +250,30 @@ body {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--black-text);
+
+  text-align: center;
 }
+
+.conteiner-main {
+  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.images {
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+/* команда */
 
 .team,
 .team-card {
@@ -172,6 +320,9 @@ body {
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
