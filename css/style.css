@@ -342,6 +342,32 @@ img {
 
 /* address */
 
+.footer {
+  display: block;
+  background: var(--background-section-one);
+  padding: 60px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.conteiner-footer {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-footer {
+  color: var(--blue-text);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 .span {
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -360,6 +386,8 @@ img {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+
+  margin-right: 0;
 }
 
 .address {
@@ -374,6 +402,31 @@ img {
 /* portfolio */
 .none {
   display: none;
+}
+
+.conteiner-portfolio {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.list-button {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.list-button > .section-button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.list-button .section-btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 11px 22px;
 }
 
 .section-button {
@@ -399,6 +452,18 @@ img {
   line-height: 26px;
 }
 
+.list-portfolio {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-portfolio {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .portfolio {
   font-style: normal;
   font-weight: bold;
@@ -407,6 +472,9 @@ img {
   letter-spacing: 0.06em;
   color: var(--black-text);
   background: var(--background-section-four);
+
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .portfolio-finger {
@@ -417,4 +485,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--pepel-text);
   background: var(--background-section-four);
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
