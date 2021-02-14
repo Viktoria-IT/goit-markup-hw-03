@@ -58,12 +58,8 @@ img {
 .social-links-info {
   display: flex;
   margin-left: 50px;
-  justify-content: center;
-}
-
-.social-links-info .item {
-  display: flex;
-  padding: 10px;
+  justify-content: flex-end;
+  text-align: center;
 }
 
 .social-links-info > .item:not(:last-child) {
@@ -145,13 +141,14 @@ img {
 
 .hero {
   background: var(--background-section-one);
-  height: 600px;
-  /* width: 1200; */
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  /* margin-left: 0;
-  margin-right: auto; */
+
+  max-width: 1200px;
+  line-height: 600px;
+  display: flex;
   text-align: center;
+}
+
+.conteiner-hero {
 }
 
 .name {
@@ -162,10 +159,9 @@ img {
 
   height: 120px;
   width: 696px;
-  margin-left: 237px;
-  margin-right: 237px;
-  padding-top: 130px;
-  padding-bottom: 207px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .current {
@@ -185,7 +181,10 @@ img {
   margin-left: 32px;
   margin-right: 32px;
   border-radius: 4px;
+  margin-bottom: 200px;
 }
+
+/* критерии */
 
 .feature {
   font-style: normal;
@@ -214,21 +213,19 @@ img {
   list-style: none;
 }
 
-.item {
-  padding: 10px;
+.item-set {
   margin-left: 10px;
   margin-top: 10px;
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.item h3 {
+.item-set h3 {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-.item p {
-  margin: 0;
+.item-set p {
   width: 270px;
 }
 
