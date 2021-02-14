@@ -30,7 +30,6 @@ img {
 }
 
 /* header */
-/* исправить почту и телефон */
 
 .main-nav {
   display: flex;
@@ -137,18 +136,20 @@ img {
 }
 
 /* hero */
-/* в херо кнопку отцентрировать */
 
 .hero {
   background: var(--background-section-one);
 
   max-width: 1200px;
-  line-height: 600px;
-  display: flex;
-  text-align: center;
+  height: 600px;
 }
 
 .conteiner-hero {
+  display: flex;
+  text-align: center;
+  padding: 200px, 452px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .name {
@@ -157,11 +158,8 @@ img {
   font-size: 44px;
   color: var(--white-text);
 
-  height: 120px;
-  width: 696px;
   margin-top: 200px;
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .current {
@@ -178,8 +176,8 @@ img {
   width: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 4px;
   margin-bottom: 200px;
 }
@@ -271,10 +269,46 @@ img {
 }
 
 /* команда */
-
-.team,
+/* 
+.team-item,
 .team-card {
-  background: var(--white-text);
+  background: var(--background-section-four);
+} */
+
+.conteiner-team {
+  max-width: 1200px;
+  height: 648px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  background: var(--background-section-four);
+}
+
+.main-team {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+
+  text-align: center;
+  margin-top: 188px;
+  margin-bottom: 50px;
+}
+
+.team-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  /* background-color: var(--white-text); */
+}
+
+.team-images {
+  margin-right: 30px;
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .team {
@@ -284,6 +318,17 @@ img {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--black-text);
+}
+
+.team-item h3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.team-item p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .team-card {
@@ -296,6 +341,7 @@ img {
 }
 
 /* address */
+
 .span {
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -317,9 +363,6 @@ img {
 }
 
 .address {
-  display: flex;
-  flex-direction: column;
-
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
