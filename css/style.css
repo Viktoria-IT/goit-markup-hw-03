@@ -360,12 +360,10 @@ img {
 /* address */
 
 .footer {
-  padding-top: 60px;
   background: var(--background-section-one);
 }
 
 .conteiner-footer {
-  /* width: 1200px; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -402,9 +400,7 @@ img {
 }
 
 .address-link {
-  display: block;
-  align-content: flex-start;
-  margin-top: 20px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
