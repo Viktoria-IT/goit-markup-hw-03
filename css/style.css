@@ -359,15 +359,18 @@ img {
 
 /* address */
 
-.footer {
+.conteiner-footer {
   background: var(--background-section-one);
 }
 
-.conteiner-footer {
+.footer {
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -400,8 +403,12 @@ img {
 }
 
 .address-link {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.address-link > .link-info:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address {
