@@ -18,16 +18,16 @@
     <!-- Шапка-->
 
     <header>
-        <div class="container main-nav">
+        <div class="container-header">
             <nav class="main-nav">
-                <a class="logo logo-link">Web<span class="text">Studio</span></a>
+                <a class="logo">Web<span class="text">Studio</span></a>
     
                 <ul class="social-links">
-                    <li class="item"><a href="./index.html" class="links">Студия</a></li>
-                    <li class="item"><a href="" class="link">Портфолио</a></li>
+                    <li class="item"><a href="./index.html" class="link">Студия</a></li>
+                    <li class="item"><a href="" class="link-current">Портфолио</a></li>
                     <li class="item"><a href="" class="link">Контакти</a></li>
                 </ul>
-            </nav>
+            
     
             <ul class="social-links-info">
                 <li class="item">
@@ -37,28 +37,34 @@
                     <a href="tel:+380961111111" class="contacts-tel">+38 096 111 11 11</a>
                 </li>
             </ul>
+            </nav>
         </div>
     </header>
 
     <!--Портфолио-->
     <main>
 
-        <section>
+        <section class="portfolio">
             <div class="conteiner-portfolio">
             <h1 class="none">Портфолио</h1>
+
             <ul class="list-button">
                 <li class="section-button">
                     <a href=""><button class="section-btn">Все</button></a>
                 </li>
+
                 <li class="section-button">
                     <a href=""><button class="section-btn">Веб-сайты</button></a>
                 </li>
+
                 <li class="section-button">
                     <a href=""><button class="section-btn">Приложения</button></a>
                 </li>
+
                 <li class="section-button">
                     <a href=""><button class="section-btn">Дизайн</button></a>
                 </li>
+
                 <li class="section-button">
                     <a href=""><button class="section-btn">Маркетинг</button></a>
                 </li>
@@ -66,57 +72,118 @@
 
             <ul class="list-portfolio">
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img.jpg" alt="ноутбук" width="370" />
-                        <h2 class="portfolio">Технокряк</h2>
-                        <p class="portfolio-finger">Веб-сайт</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img.jpg" alt="ноутбук" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 class="portfolio-info">Технокряк</h2>
+                            <p class="portfolio-finger">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(1).jpg" alt="баскетболисты" width="370" />
-                        <h2 lang="en" class="portfolio">Постер New Orlean vs Golden Star</h2>
-                        <p class="portfolio-finger">Дизайн</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(1).jpg" alt="баскетболисты" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-finger">Дизайн</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(2).jpg" alt="марка" width="370" />
-                        <h2 lang="en" class="portfolio">Ресторан Seafood</h2>
-                        <p class="portfolio-finger">Приложение</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(2).jpg" alt="марка" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Ресторан Seafood</h2>
+                            <p class="portfolio-finger">Приложение</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(3).jpg" alt="наушники" width="370" />
-                        <h2 lang="en" class="portfolio">Проект Prime</h2>
-                        <p class="portfolio-finger">Маркетинг</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(3).jpg" alt="наушники" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Проект Prime</h2>
+                            <p class="portfolio-finger">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(4).jpg" alt="две коробки" width="370" />
-                        <h2 lang="en" class="portfolio">Проект Boxes</h2>
-                        <p class="portfolio-finger">Веб-сайт</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(4).jpg" alt="две коробки" width="370" />
+                        </div>
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Проект Boxes</h2>
+                            <p class="portfolio-finger">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(5).jpg" alt="монитор компьютера" width="370" />
-                        <h2 lang="en" class="portfolio">Inspiration has no Borders</h2>
-                        <p class="portfolio-finger">Веб-сайт</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(5).jpg" alt="монитор компьютера" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Inspiration has no Borders</h2>
+                            <p class="portfolio-finger">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(6).jpg" alt="журнал" width="370" />
-                        <h2 lang="en" class="portfolio">Издание Limited Edition</h2>
-                        <p class="portfolio-finger">Дизайн</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(6).jpg" alt="журнал" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Издание Limited Edition</h2>
+                            <p class="portfolio-finger">Дизайн</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(7).jpg" alt="бирка" width="370" />
-                        <h2 lang="en" class="portfolio">Проект LAB</h2>
-                        <p class="portfolio-finger">Маркетинг</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(7).jpg" alt="бирка" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Проект LAB</h2>
+                            <p class="portfolio-finger">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="card-portfolio">
-                    <a href=""><img src="./images/portfolio.img/img(8).jpg" alt="работа за ноутбуком" width="370" />
-                        <h2 lang="en" class="portfolio">Growing Business</h2>
-                        <p class="portfolio-finger">Приложение</p>
+                    <a href="">
+                        <div class="card-list">
+                            <img src="./images/portfolio.img/img(8).jpg" alt="работа за ноутбуком" width="370" />
+                        </div>
+
+                        <div class="card-item">
+                            <h2 lang="en" class="portfolio-info">Growing Business</h2>
+                            <p class="portfolio-finger">Приложение</p>
+                        </div>
                     </a>
                 </li>
             </ul>
@@ -126,21 +193,20 @@
 
     <!-- Подвал-->
 
-    <footer class="footer">
-        <div class="conteiner-footer">
+    <footer class="conteiner-footer">
+        <div class="footer">
             <a class="logo-footer">Web<span class="span">Studio</span></a>
-            <address>
-                <ul class="addrees">
-                    <li class="link-info">
-                        <a href="" class="address">г. Киев, пр-т Леси Украинки, 26</a>
-                    </li>
-                    <li class="link-info">
-                        <a href="mailto:info@example.com" class="info">info@example.com</a>
-                    </li>
-                    <li class="link-info">
-                        <a href="tel:+380991111111" class="info">+38 099 111 11 11</a>
-                    </li>
-                </ul>
+            <address class="address-link">
+    
+                <p class="link-info address">г. Киев, пр-т Леси Украинки, 26</p>
+    
+                <p class="link-info">
+                    <a href="mailto:info@example.com" class="info">info@example.com</a>
+                </p>
+    
+                <p class="link-info">
+                    <a href="tel:+380991111111" class="info">+38 099 111 11 11</a>
+                </p>
             </address>
         </div>
     </footer>
